@@ -1,0 +1,219 @@
+@media screen and (max-width:1520px) {
+    .header {
+        padding-left: 30px;
+    }
+    .header .navigation .menu {
+        padding-right: 30px;
+    }
+    .menu-item>a {
+        font-size: 14px;
+    }
+    .scroll-icon {
+        top: 340px;
+    }
+    .section-1-title {
+        padding-top: 40px;
+    }
+    .grid-wrap {
+        height: 656px;
+    }
+}
+@media screen and (max-width:1366px) {
+    .scroll-icon {
+        top: 320px;
+    }
+    .swiper,
+    .banner {
+        height: 100vh;
+    }
+    .section {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .section-1-title {
+        padding-top: 78px;
+    }
+    /* 서브 */
+    .bn-description {
+        font-size: 44px;
+        line-height: 60px;
+    }
+}
+@media screen and (max-width:1360px) {
+    .menu-item>a {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:1112px) {
+    .grid-wrap {
+        height: 580px;
+    }    
+}
+@media screen and (max-width:1024px) {
+    .main-title {
+        font-size: 50px;
+    }
+    .main-content {
+        font-size: 28px;
+    }
+    .flex-wrap li {
+        flex-direction: column;
+    }
+    .flex-wrap li span {
+        padding-bottom: 20px;
+    }
+}
+@media screen and (max-width:981px) {
+    .tel-hidden {
+        display: flex !important;
+    }
+}
+@media screen and (max-width:868px) {
+    .grid-wrap {
+        height: 510px;
+    }   
+    .main-title > h4 {
+        font-size: 25px;
+        padding-bottom: 16px;
+    }    
+    .bn-description {
+        font-size: 35px;
+        line-height: 45px;
+    }    
+    .sub-main h3,
+    .bn-title h2 {
+        font-size: 38px;
+    }
+}
+@media screen and (max-width:800px) {
+    :root {
+        --circle-size-icon: 45px;
+    }
+    .sub-pc {
+        display: none;
+    }
+    .sub-mobile {
+        display: inline-block;
+    }
+}
+@media screen and (max-width:767px) {
+    .main-title {
+        font-size: 40px;
+    }
+    .main-content {
+        font-size: 24px;
+    }
+    .learn-more a {
+        font-size: 13px;
+    }
+    .scroll-icon {
+        top: 420px;
+    }
+    .section-1-content {
+        font-size: 24px;
+    }
+    .grid-title h3 {
+        font-size: 40px;
+    }
+    .grid-wrap {
+        height: 460px;
+    }
+    .section-3-title h3 {
+        font-size: 26px;
+        padding-bottom: 10px;
+    }        
+    .section-3-subtitle p {
+        font-size: 22px;
+    }    
+    .sitemap {
+        display: none;
+    }
+    /* 서브 */
+    .bn-description {
+        font-size: 30px;
+        line-height: 45px;
+    }   
+}
+@media screen and (max-width:560px) {
+    .section-1-content {
+        font-size: 18px;
+    }    
+    .grid-wrap {
+        height: auto;
+        grid-template-columns: repeat(1,1fr);
+        aspect-ratio: 9 / 16;
+    }    
+    .content-map {
+        width: 100%;
+        max-width: 1335px;
+        height: auto;
+        background: #9b9b9b;
+        aspect-ratio: 16 / 9;
+    }
+    .flex-wrap li {
+        padding: 15px 6px;
+    }
+    /* 서브 */
+    .bn-description {
+        font-size: 24px;
+        line-height: 35px;
+        padding: 0 10px;
+    }
+    .sub-main h3,
+    .bn-title h2 {
+        font-size: 28px;
+    }
+}
+@media screen and (max-width:468px) {
+    .main-title {
+        font-size: 30px;
+    }
+    .main-content {
+        font-size: 20px;
+    }
+    .scroll-icon {
+        top: 260px;
+    }    
+    .section-1-content {
+        font-size: 18px;
+    }
+    .section-1-content {
+        text-align: center;
+    }
+    .br {
+        display: inline-block;
+    }
+    .m-br {
+        display: none;
+    }
+    .grid-title h3 {
+        font-size: 30px;
+    }
+    .section-2 {
+        padding-top: 68px;
+        padding-bottom: 68px;
+    } 
+    /* 서브 */
+    .main-title > h4 {
+        font-size: 20px;
+        padding-bottom: 14px;
+    }
+    .bn-title h2 {
+        font-size: 28px;
+    }
+}
+@media screen and (max-width:400px) {
+    .description {
+        font-size: 16px;
+    }
+    .info-1 {
+        flex-direction: column;
+    }
+    .info-1 p {
+        padding: 0;
+        border: none;
+    }
+}
+@media screen and (max-width:375px) {
+
+}
